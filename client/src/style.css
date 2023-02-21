@@ -7,9 +7,22 @@
     text-align: center;
 }
 
+.addHome {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
 .books {
     display: flex;
-    gap: 10px;
 }
 
 .book {
@@ -53,19 +66,29 @@ img {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
-.input {
+input {
     width: 250px;
     padding: 10px;
+    border: 1px solid gray;
+}
+
+textarea {
+    padding: 10px;
+    width: 250px;
     border: 1px solid gray
 }
 
+
 .formButton {
     border: none;
+    width: 200px;
     padding: 10px;
-    background-color: rgb(244, 142, 74);
+    background-color: teal;
     color: white;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 20px;
 }

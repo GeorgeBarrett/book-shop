@@ -37,7 +37,7 @@ const Add = () => {
     <div className="form">
       <h1>Add new book</h1>
       <input type="text" placeholder="Book title" onChange={handleChange} name="title" />
-      <textarea rows="5" type="text" placeholder="Book description" onChange={handleChange} name="desc" />
+      <textarea rows={5} type="text" placeholder="Book description" onChange={handleChange} name="desc" />
       <input type="number" placeholder="Book price" onChange={handleChange} name="price" />
       <input type="text" placeholder="Book cover" onChange={handleChange} name="cover" />
       <button className="formButton" onClick={handleClick}>Add</button>
@@ -47,4 +47,4 @@ const Add = () => {
   );
 };
 
-export default Add
+export default Add;

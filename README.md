@@ -1,6 +1,7 @@
 ## book-shop
+this full-stack app is a crud application that allows the user to manage data about books
 
-for the build:
+## build
 react
 node
 express
@@ -19,6 +20,6 @@ create react app
 
 ## improvements
 
-I can't get the png/jpg cover pictures to load onto the home page. stuck on this one
-There are some styling issues, however I predominantly wanted to do this project to obtain a better understanding of full-stack development
+I can't get the png/jpg cover pictures to load onto the home page. need to resolve this
+there are also some styling issues that I will go back to
 
